@@ -87,6 +87,8 @@ background-color: var(--color-example);
 }
 .section-first{
   background-color: var(--color-section1);
+  padding: 188px 0;
+
 }
 .section-second{
   background-color: #F4F4FD;
@@ -98,6 +100,7 @@ background-color: var(--color-example);
   text-align: center;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  max-width: 496px;
 }
 .heading-two{
   font-weight: 500;
@@ -146,7 +149,7 @@ letter-spacing: 0.02em;
   color: var(--color-paragraph)
 }
 .button{
-  background-color: #4D5AE5;
+  background-color: var(--color-logo);
   font-family: "Roboto",sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -154,6 +157,11 @@ letter-spacing: 0.02em;
   letter-spacing: 0.04em;
   color: #FFFFFF;
   cursor: pointer;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .button:hover{
   background-color: #404BBF;
