@@ -20,6 +20,9 @@ color: var(--color-logo);
 margin-right: 76px;
 }
 .list{
+display: flex;
+gap: 40px;
+padding: 24px 0;
 
 }
 .first:hover{
@@ -195,8 +198,7 @@ img{
   margin:0 auto;
   padding: 0 15px;
 }
-.nav0{
+.nav{
   display: flex;
   align-items: center;
-
 }
