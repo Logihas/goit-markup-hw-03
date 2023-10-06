@@ -5,7 +5,7 @@
 --color-paragraph:#434455;
 }
 body{
-  font-family:'Roboto', sans-serif;
+  font-family:"Roboto", sans-serif;
   color: #434455;
   background-color: #FFFFFF;
 }
@@ -21,6 +21,14 @@ ol {
   padding-left: 0;
   display: flex;
   gap: 40px;
+}
+.list-one-p{
+justify-content: center;
+display: flex;
+gap: 24px;
+margin-bottom: 24px;
+}
+.list-two-p{
 }
 .logo{
 font-family: 'Raleway', sans-serif;
@@ -64,7 +72,6 @@ margin-right: 76px;
 }
 .li-one{
   background-color: #FFFFFF;
-
 }
 .address{
   font-style: normal;
@@ -134,7 +141,10 @@ background-color: var(--color-example);
   display: flex;
   gap: 24px;
 }
-  
+.section-portfolio{
+  padding-top: 96px;
+  padding-bottom: 120px;
+} 
 
 .heading-one{
   font-size: 56px;
