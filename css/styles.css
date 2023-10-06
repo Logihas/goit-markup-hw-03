@@ -16,6 +16,10 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 .list {
   list-style: none;
   margin: 0;
@@ -121,7 +125,6 @@ color:#f4f4fd;
   letter-spacing: 0.02em;
   color:#434455;
   text-decoration: none;
-
 }
 .contact:hover{
   color:#404bbf
