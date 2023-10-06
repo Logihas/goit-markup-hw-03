@@ -3,6 +3,7 @@
 --color-section1:#2e2f42;
 --color-footer:#F4F4FD;
 --color-paragraph:#434455;
+--color-portfolio:#e7e9fc;
 }
 body{
   font-family:"Roboto", sans-serif;
@@ -26,7 +27,7 @@ ol {
 justify-content: center;
 display: flex;
 gap: 24px;
-margin-bottom: 24px;
+margin-bottom: 72px;
 }
 .list-two-p{
 }
@@ -229,7 +230,7 @@ text-align: center;
 }
 
 .filter-button{
-font-family: 'Roboto',sans-serif;
+font-family: "Roboto",sans-serif;
 font-weight: 500;
 font-size:16px;
 line-height: 1.5;
@@ -246,7 +247,17 @@ cursor: pointer;
   color:#FFFFFF;
   background-color: #404BBF;
 }
-
+.button-p{
+  padding: 12px 24px;
+  border: 1px solid var(--color-portfolio);
+  border-radius: 4px;
+}
+.button-p:hover{
+  border: 1px solid transparent;
+}
+.button-p:focus{
+  border: 1px solid transparent;
+}
 .footer{
   background-color: #2e2f42;
   padding: 100px 0;
