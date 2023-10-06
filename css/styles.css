@@ -37,7 +37,7 @@ margin-bottom: 72px;
 
 }
 .logo{
-font-family: 'Raleway', sans-serif;
+font-family: "Raleway", sans-serif;
 font-weight: 800;
 font-size: 18px;
 line-height: 1.17;
@@ -196,7 +196,6 @@ background-color: var(--color-example);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--color-section1);
-
 }
 .paragraph-one{
   font-size: 16px;
@@ -213,7 +212,8 @@ text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--color-paragraph)
+  color: var(--color-paragraph);
+  margin-bottom: 8px;
 }
 .button{
   background-color: var(--color-logo);
@@ -275,7 +275,6 @@ img{
 }
 .header{
   border-bottom: 1px solid #e7e9fc;
-
 }
 .header-div{
   display: flex;
@@ -301,4 +300,9 @@ img{
 }
 .div-four{
 padding: 32px 0px;
+}
+.portfolio-div{
+  padding: 32px 16px;
+  border: 1px solid var(--color-portfolio);
+  border-top: none;
 }
