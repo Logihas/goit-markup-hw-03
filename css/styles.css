@@ -27,8 +27,14 @@ gap: 40px;
   gap: 24px;
   display: flex;
 }
+.section-three-list{
+  display: flex;
+}
 section-two-li{
   width: calc((100%-72px)/4);
+}
+.section-three{
+  padding-bottom: 120px;
 }
 .first:hover{
   color:#404bbf;
@@ -57,7 +63,7 @@ section-two-li{
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:#2e2f42;
-
+  margin-bottom: 72px;
 }
 .span{
   color: #2e2f42;
