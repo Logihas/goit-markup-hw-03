@@ -34,7 +34,7 @@ gap: 40px;
 .section-two-li{
   width: calc((100%-72px)/4);
 }
-.section-three-li{
+.section-threeli{
   width: calc((100%-48px)/3);
 }
 .section-three{
