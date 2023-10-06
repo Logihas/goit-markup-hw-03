@@ -25,6 +25,7 @@ gap: 40px;
 }
 .section-two-list{
   gap: 24px;
+  display: flex;
 }
 section-two-li{
   width: calc((100%-72px)/4);
