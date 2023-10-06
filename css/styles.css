@@ -112,6 +112,13 @@ background-color: var(--color-example);
 .section-four{
   background-color: #F4F4FD;
 }
+.section-four-list{
+  display: flex;
+  gap: 24px;
+  
+}
+  
+
 .heading-one{
   font-size: 56px;
   line-height: 1.07;
@@ -135,6 +142,8 @@ background-color: var(--color-example);
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color:#2e2f42;
+  margin-bottom: 72px;
+
 }
 .heading-fife{
   font-weight: 500;
