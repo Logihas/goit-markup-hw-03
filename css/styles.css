@@ -84,6 +84,10 @@ color:#f4f4fd;
   text-decoration: none; 
   padding: 24px 0;
 }
+.link-footer{
+  display: inline-block;
+  margin-bottom: 16px;
+}
 .contact{
   font-size: 16px;
   line-height: 1.5;
