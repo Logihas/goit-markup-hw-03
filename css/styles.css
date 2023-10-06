@@ -20,7 +20,6 @@ ol {
   list-style: none;
   margin: 0;
   padding-left: 0;
-  display: flex;
 }
 .list-one-p{
 justify-content: center;
