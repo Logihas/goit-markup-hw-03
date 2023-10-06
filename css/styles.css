@@ -21,6 +21,10 @@ ol {
   margin: 0;
   padding-left: 0;
 }
+.list-header{
+  display: flex;
+  gap: 40px;
+}
 .list-one-p{
 justify-content: center;
 display: flex;
