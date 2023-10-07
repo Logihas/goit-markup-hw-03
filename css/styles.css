@@ -57,7 +57,7 @@ color: var(--color-logo);
 margin-right: 76px;
 }
 .li-portfolio{
-  width: calc((100%-48px)/3);
+  width: calc((100% - 48px)/3);
 }
 .section-two-list{
   gap: 24px;
@@ -68,10 +68,10 @@ margin-right: 76px;
   gap: 24px;
 }
 .section-two-li{
-  width: calc((100%-72px)/4);
+  width: calc((100% - 72px)/4);
 }
 .section-threeli{
-  width: calc((100%-48px)/3);
+  width: calc((100% - 48px)/3);
 }
 .section-three{
   padding-bottom: 120px;
