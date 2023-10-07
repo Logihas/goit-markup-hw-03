@@ -4,6 +4,7 @@
 --color-footer:#F4F4FD;
 --color-paragraph:#434455;
 --color-portfolio:#e7e9fc;
+--color-menu-p:#404BBF;
 }
 body{
   font-family:"Roboto", sans-serif;
@@ -94,6 +95,8 @@ margin-right: 76px;
 }
 .address{
   font-style: normal;
+  margin-top: 24px;
+  margin-left: auto;
 }
 .heading-three{
   font-size: 36px;
@@ -171,6 +174,7 @@ background-color: var(--color-example);
   letter-spacing: 0.02em;
   color: #FFFFFF;
   max-width: 496px;
+  margin: 0 auto;
 }
 .heading-two{
   font-weight: 500;
@@ -238,6 +242,8 @@ text-align: center;
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
+  margin-top: 60px;
 }
 .button:hover{
   background-color: #404BBF;
@@ -268,9 +274,20 @@ cursor: pointer;
   padding: 12px 24px;
   border: 1px solid var(--color-portfolio);
   border-radius: 4px;
+  cursor: pointer;
+  color: var(--color-menu-p);
+  background-color: var(--color-footer);
+  font-family: "Roboto",sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-align: center;
 }
 .button-p:hover{
   border: 1px solid transparent;
+  background-color: var(--color-menu-p);
+  color: #FFFFFF;
 }
 .button-p:focus{
   border: 1px solid transparent;
@@ -309,6 +326,9 @@ img{
 }
 .div-four{
 padding: 32px 0px;
+background-color: #FFFFFF;
+border-radius: 0px 0px 4px 4px;
+gap: 32px;
 }
 .portfolio-div{
   padding: 32px 16px;
